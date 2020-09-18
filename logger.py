@@ -9,4 +9,4 @@ def printGeneration(generation):
     print('\033[2;0H', 'Generation:', generation, '   ')
 
 def printGameNumber(game, max_games):
-    print('\033[3;0H', 'Game:', game, '/', max_games, '      ')
+    print('\033[3;0H', 'Game:', game+1, '/', max_games, '      ')
